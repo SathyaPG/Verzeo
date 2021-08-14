@@ -1,0 +1,237 @@
+
+
+.about-body{
+  margin: 10px;
+  background-color: black ;
+}
+.about-first{
+  margin: 0px;
+  width: auto;
+  height: 600px;
+  background-image: url("abt-background-pic.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;  
+  position: relative;
+  animation: mymove 9s infinite;
+  animation-delay: 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.abt-div2-p{
+  margin: 0px;
+  color: black;
+  float: center;
+}
+.main-div-head{
+  font-size: 29px;
+font-weight: bold;
+margin-left: 40px;
+font-family: Arial, Helvetica, sans-serif;
+letter-spacing: 2px;
+}
+.about-second{
+  padding: 60px 0 0 780px;
+}
+.mid-div-p{
+  line-height: 1.4;
+  font-weight: bold;
+}
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 50px;
+    opacity: 55%;
+    border-top-left-radius: 1040px;
+    transform: translate(100%,50%);
+  }
+}
+.about-second1{
+ position: absolute;
+ top: 80px;
+left: 10px;
+}
+.abt-back-h2,.abt-back-h3,.abt-back-para{
+  color: white;
+  text-align: center;
+}
+.abt-back-para{
+  font-size: 15px;
+}
+.abt-back-h2{
+  font-size: 45px;
+  color: darkgray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+}
+.abt-back-h3{
+  font-size: 18px;
+  color: darkgray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+}
+.abt-back-div{
+  width: 40px;
+  height: 4px;
+  background-color: darkgray;
+  margin: auto;
+}
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 2px;
+  height: 500px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.abt-register-btn{
+  width: 150px;
+  height: 50px;
+  margin: auto;
+  color: black;
+  float:right;
+  font-weight: bold;
+  outline: none;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  background-color: darkgray;
+}
+input[type=text], input[type=password], input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background-color: rgb(205, 211, 216);
+}
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 48%;
+}
+.clrbtn{
+  background-color: #b98051;
+}
+button:hover {
+  opacity: 0.8;
+}
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #9e231a;
+}
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+img.user{
+  width: 40%;
+  border-radius: 50%;
+}
+.container {
+  padding: 16px;
+}
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+.modal {
+  display: none; 
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgba(0,0,0,0.4);
+  padding-top: 60px;
+}
+.modal-content {
+  background-color:darkgray;
+  margin: 5% auto 15% auto; 
+  border: 1px solid #888;
+  width: 40%;
+}
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 5s
+}
+.sign-up-body{
+  background-color:darkgrey;
+}
+.sign-up-div{
+  margin: auto;
+  margin-top: 40px;
+  width:440px;
+  height: 550px;
+  background-color: #3b4246;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  box-shadow: 16px 22px 20px -4px rgba(97,99,99,1);
+}
+.sign-up-div-p{
+  font-size: 25px;
+  padding-top: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+.buyimg1{
+  float: left;
+  width: 600px;
+  height: 500px;
+  margin-top: 20px;
+  margin-right: 200px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  box-shadow: 2px 4px 10px rgb(60, 145, 160);
+}
+.buyimg2{
+  float: right;
+  width: 600px;
+  height: 500px;
+  margin-top: 20px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  box-shadow: 2px 4px 10px rgb(86, 180, 149);
+}
+.buyoptions{
+  margin: 50px;
+padding: 10px;
+  color: white;
+  font-size: 38px;
+}
+.buybtn{
+  background-color: #c47317;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 28%;
+ margin-left: 450px;
+ margin-top: 50px;
+}
+.buylast{
+  color: white;
+  margin: 50px;
+}
+.buy-icons{
+  width: 50px;
+  height: 50px;
+}
+.buy-icons-fb{
+  width: 55px;
+  height: 55px;
+}
